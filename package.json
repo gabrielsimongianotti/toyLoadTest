@@ -1,0 +1,29 @@
+{
+  "name": "toyautocannon",
+  "version": "1.0.0",
+  "description": "test lib",
+  "main": "index.js",
+  "scripts": {
+    "test:load": "node ./autocannon/put.load.js",
+    "start": "json-server server.json -w"
+  },
+  "author": "gabrielsimongianotti",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.10.0",
+    "concurrently": "^7.5.0",
+    "json-server": "^0.17.1",
+    "stream": "^0.0.2"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "**/out/",
+      "/lib/select2/",
+      "/lib/ckeditor/",
+      "tmp.js"
+    ]
+  }
+}
