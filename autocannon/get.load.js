@@ -1,6 +1,5 @@
 const autocannon = require('autocannon');
 const { PassThrough } = require('stream');
-// const faker = require("faker");
 
 async function run(url) {
   const buf = [];
